@@ -1,0 +1,68 @@
+$dark-blue:#333652;
+$yelow:#FAD02C;
+$white-grey:#E9EAEC;
+$blue-grey:#90ADC6;
+$light-green:#7CF3A0;
+
+body{
+    font-size: 62.5%;
+}
+
+.clip-icon{
+    transform: rotate(-45deg);
+}
+
+.message-box{
+    width: 100%;
+    height: 5vh;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    padding: 1rem;
+}
+
+.h-9{
+    height: 8vh;
+}
+
+.h-83{
+    min-height: 83vh;
+    max-height: 83vh;
+}
+
+
+.bg-dark-blue{
+    background-color: $dark-blue;
+}
+
+.bg-kelly-green{
+    background-color: lighten(#18A558,40%);
+}
+
+.bg-ivory{
+    // background-color: darken(#EEEDE7,10%);
+    background-color: lighten(#868B8E,35%);
+}
+
+.dark-blue-text{
+    color: $dark-blue;
+}
+
+.brand-area{
+    // background-color: $yelow;
+    margin-left: 0%;        
+}
+._column{
+    height: 100vh;
+}
+.canvas{
+    height: 100vh;
+    color: white;
+}
+
+.chat-area{
+    overflow-y: scroll;
+    scrollbar-width: .2rem
+}
+
+@import "~bootstrap/scss/bootstrap";
